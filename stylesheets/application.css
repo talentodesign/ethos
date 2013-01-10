@@ -1,0 +1,486 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+@import url("reset.css");
+/* Import style sheets, hiding from IE/Mac \*/
+/* End of import hide */
+/* GERAL */
+body {
+  background: url(../images/bg_body.png) top center;
+  font-family: Verdana;
+}
+body .centraliza {
+  width: 1150px;
+  margin: 0 auto;
+}
+body a,
+body a:active,
+body a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+body a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+body .separator {
+  clear: both;
+}
+body #area_info {
+  background-color: #cccbcb;
+  float: left;
+  width: 1000px;
+  height: 40px;
+  margin-top: 10px;
+}
+body #area_info img {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+/* TOPO */
+#header {
+  background-color: white;
+  height: 220px;
+  width: 1000px;
+}
+#header #logo {
+  float: left;
+  margin-left: 390px;
+  margin-top: 60px;
+}
+#header #logar {
+  float: left;
+  margin-top: 10px;
+  margin-left: -570px;
+}
+#header #cadastrar {
+  float: left;
+  margin-top: 10px;
+  margin-left: -450px;
+}
+#header #chat_topo {
+  float: right;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+#menu_topo {
+  background: url(../images/topo/bg_menu.png) repeat-x;
+  height: 30px;
+  width: 1000px;
+}
+#menu_topo ul {
+  float: left;
+  margin-left: 150px;
+  margin-top: 5px;
+}
+#menu_topo ul li {
+  display: inline;
+  margin-left: 30px;
+}
+/* HEADER */
+/* FOOTER */
+#footer {
+  background: url(../images/footer/bg_footer.png) repeat-x;
+  height: 230px;
+}
+#footer #menu_footer {
+  background-color: #a81919;
+  float: left;
+  height: 20px;
+  width: 1500px;
+  margin-top: 15px;
+  margin-left: -130px;
+}
+#footer #menu_footer ul {
+  float: left;
+  margin-left: 440px;
+  margin-top: 3px;
+}
+#footer #menu_footer ul li {
+  display: inline;
+  margin-left: 30px;
+}
+#footer #logo_footer {
+  float: left;
+  margin-left: 500px;
+  margin-top: 40px;
+}
+#footer #footer_texto {
+  color: white;
+  float: left;
+  margin-left: 405px;
+  margin-top: 20px;
+}
+/* CONTEUDO */
+/* CURSOS */
+#principal_cursos {
+  background-color: white;
+  width: 1000px;
+  height: 800px;
+}
+#principal_cursos #img_principal_cursos {
+  background: url(../images/cursos/bg_top_cursos.png);
+  height: 200px;
+  right: 300px;
+}
+#principal_cursos #area_texto {
+  width: 600px;
+  height: 510px;
+  right: 500px;
+}
+#principal_cursos #area_texto p {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#principal_cursos #area_texto .texto_titulo {
+  font-weight: bold;
+}
+#principal_cursos #area_img_cursos {
+  float: right;
+  margin-top: -500px;
+  margin-right: 250px;
+  width: 200px;
+  height: 200px;
+}
+#principal_cursos #area_img_cursos img {
+  float: right;
+  width: 360px;
+  margin-right: -240px;
+}
+/* AMBIENTACAO */
+#principal_ambientacao {
+  background-color: white;
+  width: 1000px;
+  height: 840px;
+}
+#principal_ambientacao #img_principal_ambientacao .img_ambientacao {
+  width: 244px;
+}
+#principal_ambientacao #img_principal_ambientacao ul {
+  float: left;
+  margin-top: 5px;
+  width: 1150px;
+  margin-left: 4px;
+}
+#principal_ambientacao #img_principal_ambientacao ul li {
+  display: inline;
+  margin-left: px;
+}
+#principal_ambientacao #area_texto_amb {
+  float: left;
+  width: 720px;
+  margin-top: 10px;
+}
+#principal_ambientacao #area_texto_amb p {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #585757;
+}
+#principal_ambientacao #conteudo_amb {
+  background-color: #c9c7c7;
+  float: left;
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 950px;
+  height: 435px;
+}
+#principal_ambientacao #conteudo_amb p {
+  color: #585757;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#principal_ambientacao #conteudo_amb hr {
+  margin-left: 40px;
+  width: 860px;
+}
+#principal_ambientacao #conteudo_amb ul {
+  float: left;
+  margin-left: -5px;
+}
+#principal_ambientacao #conteudo_amb ul li {
+  display: inline;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+#principal_ambientacao #conteudo_amb ul li img {
+  width: 200px;
+}
+#principal_ambientacao #conteudo_amb img {
+  float: left;
+  margin: 15px 0 0 28px;
+  border: 3px solid #8b8b8b;
+}
+/* EMPRESA */
+#principal_empresa {
+  background-color: white;
+  width: 1000px;
+  height: 880px;
+}
+#principal_empresa #img_principal_empresa .img_empres {
+  width: 282px;
+}
+#principal_empresa #img_principal_empresa ul {
+  float: left;
+  margin-top: 5px;
+  width: 1150px;
+  margin-left: 4px;
+}
+#principal_empresa #img_principal_empresa ul li {
+  display: inline;
+  margin-left: px;
+}
+#principal_empresa #img_principal_empresa ul li img {
+  width: 244px;
+}
+#principal_empresa #conteiner_empresa {
+  width: 900px;
+}
+#principal_empresa #conteiner_empresa #titulo_empresa {
+  float: left;
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+#principal_empresa #conteiner_empresa #area_texto_empresa {
+  float: left;
+  width: 560px;
+}
+#principal_empresa #conteiner_empresa #area_texto_empresa p {
+  width: 510px;
+  margin-left: 50px;
+  margin-top: 30px;
+  color: #585757;
+}
+#principal_empresa #conteiner_empresa #video_empresa {
+  float: right;
+  margin-top: 15px;
+  margin-right: -80px;
+}
+#principal_empresa #conteiner_empresa #video_empresa p {
+  color: red;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+/* CONTATO */
+#principal_contato {
+  background-color: white;
+  width: 1000px;
+  height: 860px;
+}
+#principal_contato #img_principal_contato {
+  background: url(../images/contato/principal_contato.png);
+  width: 1000px;
+  height: 199px;
+}
+#principal_contato #conteiner_contato #formulario {
+  width: 405px;
+  margin-top: 90px;
+  margin-left: 50px;
+}
+#principal_contato #conteiner_contato #formulario input[type=text] {
+  border: 2px solid #CCCBCB;
+  outline: none;
+  width: 390px;
+  height: 33px;
+  margin-bottom: 40px;
+  padding-left: 15px;
+}
+#principal_contato #conteiner_contato #formulario textarea {
+  border: 2px solid #CCCBCB;
+  outline: none;
+  width: 390px;
+  height: 186px;
+  margin-bottom: 0px;
+  padding-left: 13px;
+  padding-top: 10px;
+}
+#principal_contato #conteiner_contato #formulario #cont_bt {
+  margin-left: 110px;
+  margin-top: 5px;
+}
+#principal_contato #conteiner_contato #mapa {
+  float: right;
+  width: 90px;
+  height: 100px;
+  margin-top: -550px;
+  margin-right: 378px;
+}
+#principal_contato #conteiner_contato #endereco {
+  background: url(../images/contato/endereco.png);
+  float: right;
+  height: 135px;
+  width: 450px;
+  margin-top: -210px;
+  margin-right: 15px;
+}
+#principal_contato #conteiner_contato #endereco .titulo {
+  color: red;
+  font-style: italic;
+  font-weight: bolder;
+}
+#principal_contato #conteiner_contato #endereco p {
+  float: left;
+  margin-left: 255px;
+  margin-top: 4px;
+  font-size: 11px;
+}
+/* HOME */
+#principal_home {
+  background-color: white;
+  width: 1000px;
+  height: 780px;
+}
+#principal_home p {
+  width: 440px;
+}
+#principal_home #clique_aqui {
+  margin-top: 10px;
+}
+#principal_home hr {
+  margin-left: 10px;
+  width: 415px;
+}
+#principal_home #img_principal_home {
+  float: left;
+  margin-left: 30px;
+}
+#principal_home #area_links {
+  float: left;
+  width: 420px;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+#principal_home #parceiros {
+  float: right;
+  margin-right: 27px;
+  background: url(../images/home/bg_parcerias.jpg);
+  width: 416px;
+  height: 150px;
+}
+#principal_home #parceiros #parceiro_slider {
+  margin-top: 46px;
+  margin-left: 100px;
+}
+#principal_home #parceiros #parcerias_titulo {
+  float: left;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+#principal_home #twitter {
+  float: right;
+  margin-right: 27px;
+  margin-top: 10px;
+  background: url(../images/home/bg_twitter.png);
+  width: 417px;
+  height: 112px;
+}
+#principal_home #face {
+  float: right;
+  margin-right: 27px;
+  background: url(../images/home/bg_face.png);
+  width: 417px;
+  height: 146px;
+  margin-top: 5px;
+}
+/* PRODUTOS */
+#principal_produtos {
+  background-color: white;
+  width: 1000px;
+  height: 750px;
+}
+#principal_produtos #area_texto_produtos {
+  width: 600px;
+  height: 100px;
+  right: 500px;
+}
+#principal_produtos #area_texto_produtos p {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 587px;
+  color: #747373;
+}
+#principal_produtos #area_img_cursos {
+  float: right;
+  margin-top: -500px;
+  margin-right: 250px;
+  width: 200px;
+  height: 200px;
+}
+#principal_produtos #banner ul {
+  float: left;
+  margin-top: 5px;
+  width: 1150px;
+  margin-left: -60px;
+  list-style-type: none;
+}
+#principal_produtos #banner ul li {
+  margin-left: 220px;
+  margin-top: 10px;
+}
+/* JOGOS EMPRESARIAIS */
+#principal_jogos {
+  background-color: white;
+  width: 1000px;
+  height: 800px;
+}
+#principal_jogos #img_principal_jogos {
+  background: url(../images/produtos/jogos_empresariais/bg_topo_jogos.png);
+  height: 200px;
+  right: 300px;
+}
+#principal_jogos #area_texto_jogos {
+  width: 970px;
+  height: 70px;
+  right: 500px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+#principal_jogos #area_texto_jogos p {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #747373;
+}
+#principal_jogos #area_texto_jogos .texto_titulo {
+  font-weight: bold;
+}
+#principal_jogos #area_img_jogos {
+  float: right;
+  margin-top: -500px;
+  margin-right: 250px;
+  width: 200px;
+  height: 200px;
+}
+/* LIVROS */
+#principal_livros {
+  background-color: white;
+  width: 1000px;
+  height: 800px;
+}
+#principal_livros #img_principal_livros {
+  background: url(../images/produtos/livros/bg_topo_livros.png);
+  height: 200px;
+  right: 300px;
+}
+/* TESTES PSICO */
+#principal_testes {
+  background-color: white;
+  width: 1000px;
+  height: 800px;
+}
+#principal_testes #img_principal_testes {
+  background: url(../images/produtos/testes/bg_topo_testes.png);
+  height: 200px;
+  right: 300px;
+}
+/* BRINQUEDOS */
+#principal_brinquedos {
+  background-color: white;
+  width: 1000px;
+  height: 800px;
+}
+#principal_brinquedos #img_principal_brinquedos {
+  background: url(../images/produtos/brinquedos/bg_topo_brinquedos.png);
+  right: 300px;
+  height: 200px;
+}

@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^simples/?$ simples.php
+Rewriterule ^cursos\/?$ cursos.php
+Rewriterule ^empresa\/?$ empresa.php
+Rewriterule ^contato\/?$ contato.php
+Rewriterule ^ambientacao\/?$ ambientacao.php
+Rewriterule ^jogos_empresariais\/?$ jogos_empresariais.php
+Rewriterule ^brinquedos\/?$ brinquedos.php
+Rewriterule ^testes\/?$ testes.php
+RewriteRule ^contato\/?$ contato.php
+Rewriterule ^produtos\/?$ produtos.php
+Rewriterule ^livros\/?$ livros.php
+Rewriterule ^index\/?$ index.php
+RewriteRule ^parametro_string/pg/([a-z0-9-]*)\/?$ parametro_string.php?pg=$1
+RewriteRule ^parametro_int\/?([1-9]*)\/?$ parametro_int.php?qs_pg2805=$1
+</IfModule>
